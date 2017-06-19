@@ -1,0 +1,50 @@
+html{
+  font-size: 10px;
+  height: 100%;
+}
+body{
+  background-image: url(city.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}
+.container{
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-family: Overpass, Roboto, Lato, sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: Merriweather, 'EB Garamond', Bitter, serif;
+  font-weight: bolder;
+}
+h4{
+  margin-top: 4rem;
+  font-weight: bolder;
+}
+#tempearture{margin-top: 2rem}
+.design-info{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+}
+button{
+  border-radius: .55rem;
+  background-color: #2398D6;
+  color: white;
+  box-shadow: 0px 2px 1px;
+}
+a{color: white}
+a:hover{color: blue}
+@media only screen and (min-device-width: 500px) {
+  .container{font-size: 2rem}
+  .design-info{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    right: 30%;
+  }
+}
